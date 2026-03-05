@@ -35,7 +35,7 @@ namespace Lab6
         public void Refill() => Console.WriteLine($"[Заправка] {brand} заправлено бензином.");
     }
 
-    class Program
+   /* class Program
     {
         static void Main(string[] args)
         {
@@ -49,7 +49,7 @@ namespace Lab6
             };
             foreach (var v in vehicles) { v.Move(); if (v is IRefuelable r) r.Refill(); }
         }
-    }
+    }*/
 }
 
 
