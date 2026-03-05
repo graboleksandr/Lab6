@@ -28,7 +28,7 @@ namespace Lab6
         public override void Open() => Console.WriteLine($"[VLC Player] Запуск відео {fileName}. Розмір: {sizeMb} MB.");
     }
 
-    public class Program
+   /* public class Program
     {
         public static void Main()
         {
@@ -41,5 +41,5 @@ namespace Lab6
             };
             foreach (var f in files) f.Open();
         }
-    }
+    }*/
 }
